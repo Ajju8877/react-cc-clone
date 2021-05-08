@@ -1,0 +1,68 @@
+
+.register, .login {
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0 80px 0;
+}
+.register h4 span ,.login h4 span{
+  align-items: center;
+  font-size: 13px;
+  color: green;
+}
+.register form , .login form{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -20px;
+  padding: 0;
+
+}
+.register form div , .login form div{
+   background-color: #fff;
+   margin: 10px;
+   padding: 5px;
+   border-radius: 50px;
+   width: 400px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+}
+.login form .register_login_btn,
+.register form .register_login_btn{
+  background-color: transparent;
+  flex: 1;
+  width: 100%;
+margin: 0;
+padding: 0 50px 0 50px;
+border: none;
+outline: none;
+box-shadow: none;
+}
+.register form input , .login form input {
+  width: 250px;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #006666;
+  background-color: transparent;
+
+}
+.register form input:focus,
+.login form input:focus{
+  border-bottom: 2px solid #b30000;
+  transition: 1s;
+}
+.register form button,
+.login form button{
+  margin-top: 20px;
+  padding: 8px 30px;
+  background-color: #00cccc;
+  border: none;
+  border-radius: 15px;
+}
+.reward_icon{
+  font-size: 15px;
+  margin-left: 5px;
+}
